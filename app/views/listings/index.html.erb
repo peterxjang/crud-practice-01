@@ -1,0 +1,5 @@
+<h1>All listings</h1>
+<% @listings.each do |listing| %>
+  <h3><%= listing.name %></h3>
+  <p><%= listing.description %></p>
+<% end %>
